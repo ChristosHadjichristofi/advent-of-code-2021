@@ -11,7 +11,7 @@ int main() {
     vector<int> numbers;
     vector<Board> boards;
     string line;
-    int n, pos, score = 0;
+    int n, score = 0;
     
     ifstream iFile("input.txt");
     getline(iFile, line);
@@ -37,22 +37,18 @@ int main() {
         boards.push_back(board);
     }
 
-    bool found = false;
     for (int num : numbers) {
-        pos = 0;
         for (Board &b : boards) {
+            if (b.won) continue;
+
             bool exists = b.markIfExists(num);
             if (exists) {
                 if (b.checkBingoRows() || b.checkBingoCols()) {
                     score = b.calcScore(num);
                     b.won = true;
-                    found = true;
                 }
             }
-            pos++;
         }
-        if (found) break;
     }
-
-    std::cout << "Board (" << (pos - 1) << ") has won with score: " << score << endl;
+    std::cout << "Last board won with score: " << score << endl;
 }

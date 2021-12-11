@@ -7,7 +7,7 @@ class Board {
 public:
     int bingo[5][5];
     int markedCells;
-    bool won;
+    bool won = false;
 
     bool markIfExists(int n);
     bool checkBingoRows();

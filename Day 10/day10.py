@@ -1,6 +1,3 @@
-from io import SEEK_CUR
-
-
 def day10_part1(input):
     score = 0
     incomplete = []

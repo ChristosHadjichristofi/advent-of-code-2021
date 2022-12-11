@@ -3,11 +3,11 @@
 <p align = "center"> My solutions to Advent of Code 2021 </p>
 
 <p align="center">
-	<img alt="Byte Code Size" src="https://img.shields.io/github/languages/code-size/ChristosHadjichristofi/advent-of-code?color=yellowgreen" />
-	<img alt="# Lines of Code" src="https://img.shields.io/tokei/lines/github/ChristosHadjichristofi/advent-of-code?color=yellowgreen" />
-	<img alt="# Languages Used" src="https://img.shields.io/github/languages/count/ChristosHadjichristofi/advent-of-code?color=yellow" />
-	<img alt="Top language" src="https://img.shields.io/github/languages/top/ChristosHadjichristofi/advent-of-code?color=yellow" />
-	<img alt="Last commit" src="https://img.shields.io/github/last-commit/ChristosHadjichristofi/advent-of-code?color=important" />
+	<img alt="Byte Code Size" src="https://img.shields.io/github/languages/code-size/ChristosHadjichristofi/advent-of-code-2021?color=yellowgreen" />
+	<img alt="# Lines of Code" src="https://img.shields.io/tokei/lines/github/ChristosHadjichristofi/advent-of-code-2021?color=yellowgreen" />
+	<img alt="# Languages Used" src="https://img.shields.io/github/languages/count/ChristosHadjichristofi/advent-of-code-2021?color=yellow" />
+	<img alt="Top language" src="https://img.shields.io/github/languages/top/ChristosHadjichristofi/advent-of-code-2021?color=yellow" />
+	<img alt="Last commit" src="https://img.shields.io/github/last-commit/ChristosHadjichristofi/advent-of-code-2021?color=important" />
 </p>
 
 ## Story
